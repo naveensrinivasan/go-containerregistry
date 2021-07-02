@@ -3,7 +3,6 @@ module github.com/google/go-containerregistry
 go 1.14
 
 require (
-	cloud.google.com/go v0.57.0 // indirect
 	github.com/Azure/azure-sdk-for-go v42.3.0+incompatible // indirect
 	github.com/Azure/go-autorest/autorest v0.10.2 // indirect
 	github.com/Azure/go-autorest/autorest/validation v0.2.0 // indirect
@@ -18,8 +17,7 @@ require (
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.4.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
-	github.com/golang/protobuf v1.4.2 // indirect
-	github.com/google/go-cmp v0.4.1
+	github.com/google/go-cmp v0.5.5
 	github.com/googleapis/gnostic v0.2.2 // indirect
 	github.com/gorilla/mux v1.7.3 // indirect
 	github.com/hashicorp/golang-lru v0.5.3 // indirect
@@ -31,16 +29,12 @@ require (
 	github.com/onsi/gomega v1.9.0 // indirect
 	github.com/opencontainers/image-spec v1.0.1
 	github.com/sirupsen/logrus v1.6.0 // indirect
-	github.com/spf13/cobra v1.0.0
+	github.com/spf13/cobra v1.2.0
 	github.com/vdemeester/k8s-pkg-credentialprovider v1.18.1-0.20201019120933-f1d16962a4db
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	golang.org/x/sys v0.0.0-20200523222454-059865788121 // indirect
+	golang.org/x/oauth2 v0.0.0-20210402161424-2e8d93401602
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1 // indirect
-	golang.org/x/tools v0.0.0-20200916195026-c9a70fc28ce3 // indirect
-	google.golang.org/genproto v0.0.0-20200527145253-8367513e4ece // indirect
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
-	gopkg.in/yaml.v2 v2.3.0 // indirect
 	k8s.io/api v0.18.8
 	k8s.io/apimachinery v0.18.8
 	k8s.io/client-go v0.18.8
